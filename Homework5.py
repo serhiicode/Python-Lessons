@@ -1,1 +1,6 @@
-print('Hello Homework Number 5')
+n = int(input("Введіть трьохзначне число\n"))
+n3 = n % 10 # 3 число
+n2 = n // 10 % 10 # 2 число
+n1 = n // 100 # 1 число
+new_n = n3 * 100 + n2 * 10 + n1
+print(new_n)
