@@ -2,5 +2,5 @@
 n = int(input('Введіть число: \n'))
 start = 1
 while start ** 2 <= n:
-    print(start ** 2)
+    print(start ** 2, end=" ")
     start += 1
