@@ -7,6 +7,7 @@ print(f'Згенерований список: \n{lst}\n')
 
 for i in lst[1:9]:
   x = lst.index(i)
+  
   if lst[x-1] < i > lst[x+1]:
     count += 1
     print(i, end=' ')
