@@ -1,10 +1,18 @@
+'''
+            *
+          *   *
+        *       *
+      *           *
+    *               *
+  *                   *
+* * * * * * * * * * * * *
+'''
 
-rows = 11
-cols = 11
+height = int(input('Яка висота трикутника?\n'))
 
-for i in range(rows):
-  for j in range(cols):
-    if i == 0 or i == rows-1 or j == 0 or j == cols-1 or i == j or i == cols-1-j:
+for row in range(height):
+  for cols in range(height*2-1):
+    if row == 0 and cols == height-1 or cols == height-row-1 or cols == height+row-1 or row == height-1:
       print('* ', end=' ')
     else:
       print('  ', end=' ')
