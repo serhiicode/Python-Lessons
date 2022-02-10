@@ -25,4 +25,4 @@ person['surname'] = 'Ivanov'
 person['age'] = 35
 person['chilren'] = ['petr','olga']
 person['pets'] = {'dog': 'sharik', 'cat': 'marsik'}
-print(person)
+# print(person)
